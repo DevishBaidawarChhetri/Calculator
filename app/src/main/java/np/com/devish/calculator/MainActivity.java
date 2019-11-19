@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tvResult;
     float firstNum, secondNum, result;
-    Boolean boolSum, boolSub, boolMul, boolDiv;
+    boolean boolSum = false, boolSub = false, boolMul =false, boolDiv =false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -170,18 +170,18 @@ public class MainActivity extends AppCompatActivity {
                     result = firstNum + secondNum;
                     tvResult.setText(result + "");
                     boolSum = false;
-                }
-                else if(boolSub == true){
+                } else
+                if(boolSub == true){
                     result = firstNum - secondNum;
                     tvResult.setText(result + "");
                     boolSub = false;
-                }
-                else if(boolMul == true){
+                }else
+                if(boolMul == true){
                     result = firstNum * secondNum;
                     tvResult.setText(result + "");
                     boolMul = false;
-                }
-                else if(boolDiv == true){
+                }else
+                if(boolDiv == true){
                     result = firstNum / secondNum;
                     tvResult.setText(result + "");
                     boolDiv = false;
