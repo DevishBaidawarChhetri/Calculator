@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tvResult;
     float firstNum, secondNum, result;
-    boolean boolSum = false, boolSub = false, boolMul =false, boolDiv =false;
+    boolean boolSum = false, boolSub = false, boolMul = false, boolDiv = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
